@@ -22,7 +22,7 @@ html {
 #hero-grid {
   align-items: center;
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 #hero-grid figure {
@@ -35,6 +35,7 @@ html {
 
 #profile img {
   width: 100%;
+  height: auto;
 }
 
 header {
