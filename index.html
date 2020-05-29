@@ -8,7 +8,7 @@
     <title>Portfolio | Lily Wu</title>
   </head>
   <body>
-    <div class="container-top-background">
+    <div class="container">
         <header>
            <img class="logo" src="images/logo.svg" alt="logo">
           <nav>
@@ -16,22 +16,95 @@
                     <li><a href="#">Work</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Resume</a></li>
-                    <li><a href="#">Contact</a></li>
               </ul>
             </nav>
+            <a class="cta" href="#"><button>Contact</button></a>
+              <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
           </header>
-        <article id="hero-grid">
-          <section class="mobile-hero">
-            <figure id="profile" class="profile-mobile"></figure>
+
+          <!---Mobile Nav--->
+      <div id="mobile__menu" class="overlay">
+        <a class="close" onclick="closeNav()">&times;</a>
+          <div class="overlay__content">
+            <a href="#">Work</a>
+            <a href="#">About</a>
+            <a href="#">Resume</a>
+            <a href="#">Contact</a>
+          </div>
+      </div>
+      <script type ="text/javascript" src="mobile.js"></script>
+
+        <!---Hero Section--->
+        <section class="hero-grid">
+          <article>
             <h1>Hello, nice to meet you! <br>My name is Lily.<br></h1>
             <p>I am a <b>UX designer</b> based in the San Francisco Bay Area. I combine my <b>business background</b> and <b>passion</b> for design to build <b>digital products</b> that are <b>valuable to the user</b> while also meeting <b>business needs.</b></p>
-            </section>
+          </article>
               <figure id="profile" class="profile-desktop">
                   <img src="images/profilepic.png" alt="profilepic">
               </figure>
-          </article>
-          <div id="see-work-link">
+          </section>
+          <div class="down-arrow">
+                <img class="downarrow" src="images/downarrow.svg" alt="downarrow">
           </div>
+          <section class="seleted-work">
+            <h2>Selected Work</h2>
+          </section>
+
+        <!---Canopy Case Study Section--->
+        <section class="canopy-grid">
+          <article>
+          <img id="canopy-cs-pic" src="images/canopy.png" alt="canopy">
+            </article>
+            <article>
+              <div class="canopy-text">
+                <ul class="canopy-bullet">
+                  <li><a href="#">UX</a></li>
+                  <li><a href="#"><img id="square-bullet" src="images/square.svg" alt="square"></a></li>
+                  <li><a href="#">VISUAL</a></li>
+                  <li><a href="#"><img id="square-bullet" src="images/square.svg" alt="square"></a></li>
+                  <li><a href="#">BRAND</a></li>
+                </ul>
+                <h4>Canopy Cloud Storage</h4>
+                <p id="canopy-desc">Canopy is a cloud storage application that emphasizes organization and collaboration.</p>
+                <a class="view-canopy" href="#"><button>View Case Study</button></a>
+              </div>
+            </article>
+        </section>
+
+        <!---BusyBus Case Study Section--->
+        <section class="canopy-grid">
+          <article>
+          <img id="canopy-cs-pic" src="images/busybus.png" alt="canopy">
+            </article>
+            <article>
+              <div class="canopy-text">
+                <ul class="canopy-bullet">
+                  <li><a href="#">UX</a></li>
+                  <li><a href="#"><img id="square-bullet" src="images/square.svg" alt="square"></a></li>
+                  <li><a href="#">VISUAL</a></li>
+                  <li><a href="#"><img id="square-bullet" src="images/square.svg" alt="square"></a></li>
+                  <li><a href="#">BRAND</a></li>
+                </ul>
+                <h4>Canopy Cloud Storage</h4>
+                <p id="canopy-desc">Canopy is a cloud storage application that emphasizes organization and collaboration.</p>
+                <a class="view-canopy" href="#"><button>View Case Study</button></a>
+              </div>
+            </article>
+        </section>
+
+        <footer>
+          <h3>Let's connect and work together!</h3>
+          <ul class="socials">
+                  <li><a href="#"><img id="social_icons" src="images/gmail.svg" alt="gmail"></a></li>
+                  <li><a href="#"><img id="social_icons" src="images/linkedin.svg" alt="linkedin"></a></li>
+                  <li><a href="#"><img id="social_icons" src="images/instagram.svg" alt="instagram"></a></li>
+                  <li><a href="#"><img id="social_icons" src="images/github.svg" alt="instagram"></a></li>
+            </ul>
+            <p id="copyright">Copyright 2020 Designed & Developed by Lily Wu</p>
+        </footer>
+
+
     </div>
 
   </body>
