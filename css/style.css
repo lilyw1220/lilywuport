@@ -60,6 +60,18 @@ h4 {
 
 }
 
+h5 {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  color: #1B4049;
+  margin-left: 4.5rem;
+  padding-top: 6rem;
+
+}
+
 
 p {
   display: block;
@@ -238,9 +250,6 @@ button:hover {
   font-size: 18px;
   line-height: 50px;
   padding-left: 0.5rem;
-
-/* or 278% */
-
   color: #1B4049;
 
 }
@@ -262,10 +271,7 @@ button:hover {
   margin-bottom: 4rem;
   margin-top: 2rem;
   margin-left: 4.5rem;
-
-/* or 312% */
   text-align: center;
-
   color: #1B4049;
 }
 
@@ -278,9 +284,6 @@ button:hover {
   font-weight: normal;
   font-size: 2rem;
   line-height: 30px;
-
-  /* or 150% */
-
   color: #1B4049;
 
 
@@ -290,6 +293,30 @@ button:hover {
   margin-bottom: 0.3rem;
 }
 
+
+/* About Me */
+.aboutme-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 10rem;
+
+}
+
+#about-text {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 4.5rem;
+  margin-top: 1.5rem;
+
+/* or 187% */
+
+  color: #343434;
+}
 
 /* Footer Section */
 
