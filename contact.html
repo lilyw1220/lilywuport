@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio | Lily Wu</title>
+  </head>
+  <body>
+    <div class="container">
+        <header>
+           <img class="logo" src="images/logo.svg" alt="logo">
+          <nav>
+            <ul class="nav__links">
+                    <li><a href="#">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Resume</a></li>
+              </ul>
+            </nav>
+            <a class="cta" href="#"><button>Contact</button></a>
+              <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+          </header>
+
+          <!---Mobile Nav--->
+      <div id="mobile__menu" class="overlay">
+        <a class="close" onclick="closeNav()">&times;</a>
+          <div class="overlay__content">
+            <a href="#">Work</a>
+            <a href="#">About</a>
+            <a href="#">Resume</a>
+            <a href="#">Contact</a>
+          </div>
+      </div>
+      <script type ="text/javascript" src="mobile.js"></script>
+
+      <!-- modify this form HTML and place wherever you want your form -->
+
+<form
+  action="https://formspree.io/mjvawbdo"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+
+    </body>
+  </html>
