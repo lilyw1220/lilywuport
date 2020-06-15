@@ -10,10 +10,10 @@
   <body>
     <div class="container">
         <header>
-           <img class="logo" src="images/logo.svg" alt="logo">
+           <a href="index.html" id="logo-home"><img class="logo" src="images/logo.svg" alt="logo"></a>
           <nav>
             <ul class="nav__links">
-                    <li><a href="#">Work</a></li>
+                    <li><a href="#selected-work">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#">Resume</a></li>
               </ul>
@@ -26,10 +26,10 @@
       <div id="mobile__menu" class="overlay">
         <a class="close" onclick="closeNav()">&times;</a>
           <div class="overlay__content">
-            <a href="#">Work</a>
-            <a href="#">About</a>
+            <a href="index.html">Work</a>
+            <a href="about.html">About</a>
             <a href="#">Resume</a>
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
           </div>
       </div>
       <script type ="text/javascript" src="mobile.js"></script>
@@ -45,16 +45,16 @@
               </figure>
           </section>
           <div class="down-arrow">
-                <img class="downarrow" src="images/downarrow.svg" alt="downarrow">
+                <a href="#selected-work"><img class="downarrow" src="images/downarrow.svg" alt="downarrow"></a>
           </div>
-          <section class="seleted-work">
+          <div class="selected-work" id="selected-work">
             <h2>Selected Work</h2>
-          </section>
+          </div>
 
         <!---Canopy Case Study Section--->
         <section class="canopy-grid">
-          <article>
-          <img id="canopy-cs-pic" src="images/canopy.png" alt="canopy">
+          <article class="canopy-img">
+          <img id="canopy-cs-pic" src="images/canopy4.png" alt="canopy">
             </article>
             <article>
               <div class="canopy-text">
@@ -73,26 +73,27 @@
         </section>
 
         <!---BusyBus Case Study Section--->
-        <section class="canopy-grid">
-          <article>
-          <img id="canopy-cs-pic" src="images/busybus.png" alt="canopy">
+        <section class="busybus-grid">
+          <article class="busybus-img">
+          <img id="busybus-cs-pic" src="images/busybus4.png" alt="canopy">
             </article>
             <article>
-              <div class="canopy-text">
-                <ul class="canopy-bullet">
+              <div class="busybus-text">
+                <ul class="busybus-bullet">
                   <li><a href="#">UX</a></li>
-                  <li><a href="#"><img id="square-bullet" src="images/square.svg" alt="square"></a></li>
+                  <li><a href="#"><img id="square-bullet-busy" src="images/square.svg" alt="square"></a></li>
                   <li><a href="#">VISUAL</a></li>
-                  <li><a href="#"><img id="square-bullet" src="images/square.svg" alt="square"></a></li>
-                  <li><a href="#">FRONTEND</a></li>
+                  <li><a href="#"><img id="square-bullet-busy" src="images/square.svg" alt="square"></a></li>
+                  <li><a href="#">BRAND</a></li>
                 </ul>
                 <h4>BusyBus</h4>
-                <p id="canopy-desc">BusyBus is a public transportation app that helps users plan their trips efficiently.</p>
-                <a class="view-canopy" href="#"><button>View Case Study</button></a>
+                <p id="busybus-desc">BusyBus is a public transportation app that helps users plan their trips efficiently.</p>
+                <a class="view-busybus" href="#"><button>View Case Study</button></a>
               </div>
             </article>
         </section>
 
+  <!---Footer Section--->
         <footer>
           <h3>Let's connect and work together!</h3>
           <ul class="socials">
@@ -103,6 +104,7 @@
             </ul>
             <p id="copyright">Copyright 2020 Designed & Developed by Lily Wu</p>
         </footer>
+
 
     </div>
 

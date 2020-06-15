@@ -10,6 +10,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 
@@ -91,6 +92,10 @@ p {
 
 
 .logo {
+  margin-right: auto;
+}
+
+#logo-home {
   margin-right: auto;
 }
 
@@ -210,6 +215,10 @@ button:hover {
 
 }
 
+#selected-work {
+
+}
+
 
 /* Canopy Section */
 
@@ -226,7 +235,15 @@ button:hover {
 .canopy-grid > article img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
+
+}
+
+.canopy-img {
+  background-color: #FCE2C1;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .canopy-grid > article {
@@ -275,6 +292,22 @@ button:hover {
   color: #1B4049;
 }
 
+.view-canopy > button:hover {
+  border: 2px solid #1B4049;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 
 #canopy-desc {
   margin-top: 4rem;
@@ -289,9 +322,118 @@ button:hover {
 
 }
 
+#canopy-cs-pic {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 #square-bullet {
   margin-bottom: 0.3rem;
+
 }
+
+/* BusyBus */
+
+.busybus-grid {
+  margin-top: 7rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  align-items: stretch;
+}
+
+.busybus-grid > article img {
+  max-width: 300px;
+  max-height: 700px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.busybus-img {
+  background-color: #FDD5D5;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.busybus-grid > article {
+  display: flex;
+}
+
+.busybus-text {
+  border: 2px solid rgba(27, 64, 73, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-right: 3rem;
+
+}
+
+.busybus-bullet > li, a {
+  display: inline-block;
+  margin-top: 1.3rem;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 50px;
+  padding-left: 0.5rem;
+  color: #1B4049;
+
+}
+
+.busybus-bullet {
+  margin-left: 3.9rem;
+}
+
+
+.view-busybus > button {
+  border: 2px solid #1B4049;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+  text-align: center;
+  color: #1B4049;
+}
+
+
+#busybus-desc {
+  margin-top: 4rem;
+  margin-left: 4.5rem;
+  font-family: "Nunito",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 30px;
+  color: #1B4049;
+
+
+}
+
+#busybus-cs-pic {
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+}
+
+#square-bullet-busy {
+  margin-bottom: 0.3rem;
+
+}
+
 
 
 /* About Me */
@@ -317,6 +459,68 @@ button:hover {
 
   color: #343434;
 }
+
+/* Contact Form */
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1.5px solid #343434;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  resize: vertical;
+}
+
+.contact {
+  margin-top: 3rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+
+}
+
+.contact-desc {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2rem;
+  line-height: 27px;
+  color: #1B4049;
+
+
+}
+
+#contact-text{
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+input[type=submit] {
+  background-color: #FFFFFF;
+  color: #1B4049;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding: 12px 40px;
+  border: 2px solid #1B4049;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1B4049;
+  color: white;
+}
+
 
 /* Footer Section */
 
@@ -378,7 +582,7 @@ footer ul {
       font-size: 2.6rem;
       color: #343434;
       margin-left: 11rem;
-      margin-right: 3rem;
+      margin-right: 11rem;
       margin-top: 4.8rem;
       line-height: 4.8rem;
 
@@ -389,8 +593,311 @@ footer ul {
     }
 
     #canopy-cs-pic {
+    padding-top: 8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 8rem;
     margin-bottom: 1rem;
     }
+
+    .canopy-img {
+      margin-bottom: 1rem;
+    }
+
+    .busybus-grid {
+      display: block;
+    }
+
+    #busybus-cs-pic {
+      padding-top: 5rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+
+    }
+
+    .busybus-img {
+      margin-bottom: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .canopy-bullet {
+    display: none;
+  }
+
+  h1 {
+    display: block;
+    font-size: 4.8rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    margin-top: 10rem;
+
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 10rem;
+
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20rem;
+
+  }
+
+
+  h4 {
+    text-align: left;
+    font-size: 2.4rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+
+  }
+
+  p {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    font-size: 2.6rem;
+    color: #343434;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    margin-top: 4.8rem;
+    line-height: 4.8rem;
+
+  }
+
+  .canopy-grid {
+    margin-top: 7rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #canopy-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  .busybus-bullet {
+    margin-left: 3.9rem;
+    display: none;
+  }
+
+  .busybus-grid {
+    margin-top: 7rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #busybus-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  #copyright {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 30px;
+    text-align: center;
+    color: #343434;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  .logo {
+    margin-right: auto;
+    padding-left: 2.5rem;
+  }
+
+  .menu {
+    padding-right: 2.5rem;
+  }
+
+
+  .canopy-bullet {
+    display: none;
+  }
+
+
+  h1 {
+    display: block;
+    font-size: 3.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 10rem;
+
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 10rem;
+
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20rem;
+
+  }
+
+
+  h4 {
+    text-align: left;
+    font-size: 2.4rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+
+  }
+
+  p {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    font-size: 2rem;
+    color: #343434;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 4.8rem;
+    line-height: 4.8rem;
+
+  }
+
+  .canopy-grid {
+    margin-top: 7rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #canopy-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  .busybus-bullet {
+    margin-left: 3.9rem;
+    display: none;
+  }
+
+  .busybus-grid {
+    margin-top: 7rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #busybus-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  #copyright {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 30px;
+    text-align: center;
+    color: #343434;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+
+  }
+
 
 }
 

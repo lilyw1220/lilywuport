@@ -10,10 +10,10 @@
   <body>
     <div class="container">
         <header>
-           <img class="logo" src="images/logo.svg" alt="logo">
+           <a href="index.html" id="logo-home"><img class="logo" src="images/logo.svg" alt="logo"></a>
           <nav>
             <ul class="nav__links">
-                    <li><a href="#">Work</a></li>
+                    <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#">Resume</a></li>
               </ul>
@@ -35,24 +35,42 @@
       <script type ="text/javascript" src="mobile.js"></script>
 
       <!-- modify this form HTML and place wherever you want your form -->
-
-<form
-  action="https://formspree.io/mjvawbdo"
-  method="POST"
->
+<section class="contact-desc">
+<h2>Wish to collaborate? Let's get in touch!</h2>
+  <p id="contact-text">Send me a message or read about my experience on my resume.</p>
+</section>
+<div class="contact">
+<form action="https://formspree.io/mjvawbdo" method="POST">
+  <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name">
+    <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lastname" placeholder="Last name">
   <label>
-    Your email:
-    <input type="text" name="_replyto">
+    Email Address:
+    <input type="text" name="_replyto" placeholder="Your email">
   </label>
   <label>
-    Your message:
-    <textarea name="message"></textarea>
+    Your Message:
+    <textarea name="message" style="height:200px" placeholder="Your message"></textarea>
   </label>
 
   <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
+  <input type="submit" value="Submit" style="float:right">
 </form>
 
+</div>
+
+<!---Footer Section--->
+      <footer>
+        <h3>Let's connect and work together!</h3>
+        <ul class="socials">
+                <li><a href="#"><img id="social_icons" src="images/gmail.svg" alt="gmail"></a></li>
+                <li><a href="#"><img id="social_icons" src="images/linkedin.svg" alt="linkedin"></a></li>
+                <li><a href="#"><img id="social_icons" src="images/instagram.svg" alt="instagram"></a></li>
+                <li><a href="#"><img id="social_icons" src="images/github.svg" alt="instagram"></a></li>
+          </ul>
+          <p id="copyright">Copyright 2020 Designed & Developed by Lily Wu</p>
+      </footer>
+</div>
     </body>
   </html>
