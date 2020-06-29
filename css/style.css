@@ -460,11 +460,17 @@ button:hover {
   color: #343434;
 }
 
+#child-drawing {
+  margin-left: 15rem;
+  margin-top: 5rem;
+}
+
 /* Contact Form */
 
 input[type=text], textarea {
   width: 100%;
   padding: 12px;
+  font-size: 1.6rem;
   border: 1.5px solid #343434;
   border-radius: 6px;
   box-sizing: border-box;
@@ -497,8 +503,8 @@ label {
 }
 
 #contact-text{
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input[type=submit] {
@@ -568,6 +574,12 @@ footer ul {
       display: block;
     }
 
+    .aboutme-grid {
+      display: block;
+      margin-left: 10rem;
+      margin-right: 10rem;
+
+    }
     #profile img {
       display: block;
       margin-left: auto;
@@ -617,6 +629,19 @@ footer ul {
 
     .busybus-img {
       margin-bottom: 1rem;
+    }
+
+    #contact-text{
+      margin-left: 3rem;
+      margin-right: 3rem;
+      font-size: 2rem;
+    }
+
+    .contact {
+      margin-top: 3rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+
     }
 
 }
@@ -752,6 +777,29 @@ footer ul {
     margin-bottom: 5rem;
 
   }
+
+  .aboutme-grid {
+    display: block;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+
+  }
+
+  #contact-text{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .contact {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+  }
+
 
 }
 
@@ -898,8 +946,672 @@ footer ul {
 
   }
 
+  .aboutme-grid {
+    display: block;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+
+  }
+
+  #child-drawing {
+    display: none;
+
+  }
+
+
+    #contact-text{
+      margin-left: 2rem;
+      margin-right: 2rem;
+      font-size: 1.6rem;
+      text-align: center;
+    }
+
 
 }
+
+@media only screen and (max-width: 500px) {
+
+  .logo {
+    margin-right: auto;
+  }
+
+  header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 3rem 2%;
+  }
+
+  .menu {
+    margin-left: auto;
+  }
+
+
+  .canopy-bullet {
+    display: none;
+  }
+
+
+  h1 {
+    display: block;
+    font-size: 3.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 10rem;
+
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 10rem;
+
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20rem;
+
+  }
+
+
+  h4 {
+    text-align: left;
+    font-size: 2.4rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+
+  }
+
+  p {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    font-size: 2rem;
+    color: #343434;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 4.8rem;
+    line-height: 4rem;
+
+  }
+
+  .canopy-grid {
+    margin-top: 7rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #canopy-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  .busybus-bullet {
+    margin-left: 3.9rem;
+    display: none;
+  }
+
+  .busybus-grid {
+    margin-top: 7rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #busybus-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  #copyright {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 30px;
+    text-align: center;
+    color: #343434;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+
+  }
+
+  .aboutme-grid {
+    display: block;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+
+  }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  .logo {
+    margin-right: auto;
+  }
+
+  header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 3rem 2%;
+  }
+
+  .menu {
+    margin-left: auto;
+  }
+
+
+  .canopy-bullet {
+    display: none;
+  }
+
+
+  h1 {
+    display: block;
+    font-size: 2.8rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 10rem;
+
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 10rem;
+
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20rem;
+
+  }
+
+
+  h4 {
+    text-align: left;
+    font-size: 2.4rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+
+  }
+
+  p {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.8rem;
+    color: #343434;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4.8rem;
+    line-height: 4rem;
+
+  }
+
+  .canopy-grid {
+    margin-top: 7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #canopy-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  .busybus-bullet {
+    margin-left: 3.9rem;
+    display: none;
+  }
+
+  .busybus-grid {
+    margin-top: 7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #busybus-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  #copyright {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 30px;
+    text-align: center;
+    color: #343434;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+
+  }
+
+  #social_icons {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+
+}
+
+@media only screen and (max-width: 380px) {
+
+  .logo {
+    margin-right: auto;
+  }
+
+  header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 3rem 2%;
+  }
+
+  .menu {
+    margin-left: auto;
+  }
+
+
+  .canopy-bullet {
+    display: none;
+  }
+
+
+  h1 {
+    display: block;
+    font-size: 2.8rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 10rem;
+
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 10rem;
+
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20rem;
+
+  }
+
+
+  h4 {
+    text-align: left;
+    font-size: 2.4rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+
+  }
+
+  p {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.8rem;
+    color: #343434;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4.8rem;
+    line-height: 4rem;
+
+  }
+
+  .canopy-grid {
+    margin-top: 7rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #canopy-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  .busybus-bullet {
+    margin-left: 3.9rem;
+    display: none;
+  }
+
+  .busybus-grid {
+    margin-top: 7rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #busybus-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  #copyright {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 30px;
+    text-align: center;
+    color: #343434;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+
+  }
+
+  #social_icons {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+
+}
+
+@media only screen and (max-width: 335px) {
+
+  .logo {
+    margin-right: auto;
+  }
+
+  header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 3rem 2%;
+  }
+
+  .menu {
+    margin-left: auto;
+  }
+
+
+  .canopy-bullet {
+    display: none;
+  }
+
+
+  h1 {
+    display: block;
+    font-size: 2.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 10rem;
+
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 10rem;
+
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20rem;
+
+  }
+
+
+  h4 {
+    text-align: left;
+    font-size: 2.4rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+
+  }
+
+  p {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6rem;
+    color: #343434;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 4.8rem;
+    line-height: 4rem;
+
+  }
+
+  .canopy-grid {
+    margin-top: 7rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #canopy-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  .busybus-bullet {
+    margin-left: 3.9rem;
+    display: none;
+  }
+
+  .busybus-grid {
+    margin-top: 7rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: stretch;
+  }
+
+  #busybus-desc {
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #1B4049;
+
+  }
+
+  #copyright {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 30px;
+    text-align: center;
+    color: #343434;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+
+  }
+
+  #social_icons {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #contact-text{
+    display: none;
+  }
+
+  .contact {
+    margin-top: 8rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+  }
+
+}
+
+
 
 @media screen and (max-height: 450px) {
     .overlay a {
