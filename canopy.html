@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio | Lily Wu</title>
+  </head>
+  <body>
+    <div class="container">
+        <header>
+            <a href="index.html" id="logo-home"><img class="logo" src="images/logo.svg" alt="logo"></a>
+          <nav>
+            <ul class="nav__links">
+                    <li><a href="#selected-work">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Resume</a></li>
+              </ul>
+            </nav>
+            <a class="cta" href="contact.html"><button>Contact</button></a>
+              <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+          </header>
+
+          <!---Mobile Nav--->
+      <div id="mobile__menu" class="overlay">
+        <a class="close" onclick="closeNav()">&times;</a>
+          <div class="overlay__content">
+            <a href="index.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="#">Resume</a>
+            <a href="contact.html">Contact</a>
+          </div>
+      </div>
+      <script type ="text/javascript" src="mobile.js"></script>
+
+      <!---Canopy Case Study Info--->
+
+      <section class="canopy-header">
+        <figure id="canopylogo" class="canopylogo-desktop">
+            <img src="images/canopylogo2.png" alt="canopylogo1pic">
+        </figure>
+      </section>
+
+      <section class="canopy-title">
+        <h1>Canopy Cloud Storage</h1>
+      </section>
+
+
+      <section class="user-graph-1"> GRAPH 1 & TEXT
+              <canvas id="myChart" width="400" height="400"></canvas>
+          </section>
+
+          <section class="user-graph-2">GRAPH 2 & TEXT
+                <canvas id="vertbarChart" width="400" height="400"></canvas>
+          </section>
+
+
+      <!---Footer Section--->
+            <footer>
+              <h3>Let's connect and work together!</h3>
+              <ul class="socials">
+                      <li><a href="#"><img id="social_icons" src="images/gmail.svg" alt="gmail"></a></li>
+                      <li><a href="#"><img id="social_icons" src="images/linkedin.svg" alt="linkedin"></a></li>
+                      <li><a href="#"><img id="social_icons" src="images/instagram.svg" alt="instagram"></a></li>
+                      <li><a href="#"><img id="social_icons" src="images/github.svg" alt="instagram"></a></li>
+                </ul>
+                <p id="copyright">Copyright 2020 Designed & Developed by Lily Wu</p>
+            </footer>
+
+          </div>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+          <script src="chartinfo.js"></script>
+</body>
+</html>

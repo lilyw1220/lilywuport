@@ -21,7 +21,6 @@ h1 {
   color: #1B4049;
   font-style: normal;
   font-weight: bold;
-  margin-left: 11rem;
   margin-top: 10rem;
 
 }
@@ -79,7 +78,6 @@ p {
   font-family: "Nunito", sans-serif;
   font-size: 2.6rem;
   color: #343434;
-  margin-left: 11rem;
   margin-top: 4.8rem;
   line-height: 4.8rem;
 
@@ -88,6 +86,8 @@ p {
 
 .container {
   display: grid;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 
@@ -107,6 +107,11 @@ p {
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.hero-grid > article {
+  padding-left: 11rem;
+
 }
 
 #hero-grid figure {
@@ -559,10 +564,40 @@ footer ul {
 
 }
 
+/* CANOPY CASE STUDY CSS */
+
+.user-graph-1 {
+
+  width: 50%;
+}
+
+.user-graph-2 {
+
+  width: 50%;
+
+}
+
+.canopy-header {
+  margin: auto;
+
+}
+
+#canopylogo > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.canopy-title {
+  margin-top: -8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* Media Queries */
 
 @media only screen and (max-width: 1200px) {
+
     .nav__links, .cta {
         display: none;
     }
@@ -593,7 +628,6 @@ footer ul {
       font-family: "Nunito", sans-serif;
       font-size: 2.6rem;
       color: #343434;
-      margin-left: 11rem;
       margin-right: 11rem;
       margin-top: 4.8rem;
       line-height: 4.8rem;
@@ -659,7 +693,6 @@ footer ul {
     color: #1B4049;
     font-style: normal;
     font-weight: bold;
-    margin-left: 11rem;
     margin-right: 11rem;
     margin-top: 10rem;
 
@@ -706,7 +739,6 @@ footer ul {
     font-family: "Nunito", sans-serif;
     font-size: 2.6rem;
     color: #343434;
-    margin-left: 11rem;
     margin-right: 11rem;
     margin-top: 4.8rem;
     line-height: 4.8rem;
@@ -827,7 +859,6 @@ footer ul {
     color: #1B4049;
     font-style: normal;
     font-weight: bold;
-    margin-left: 8rem;
     margin-right: 8rem;
     margin-top: 10rem;
 
@@ -874,7 +905,6 @@ footer ul {
     font-family: "Nunito", sans-serif;
     font-size: 2rem;
     color: #343434;
-    margin-left: 8rem;
     margin-right: 8rem;
     margin-top: 4.8rem;
     line-height: 4.8rem;
@@ -1000,7 +1030,6 @@ footer ul {
     color: #1B4049;
     font-style: normal;
     font-weight: bold;
-    margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 10rem;
 
@@ -1047,7 +1076,6 @@ footer ul {
     font-family: "Nunito", sans-serif;
     font-size: 2rem;
     color: #343434;
-    margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 4.8rem;
     line-height: 4rem;
@@ -1127,6 +1155,11 @@ footer ul {
 
   }
 
+  .hero-grid > article {
+    padding-left: 2rem;
+
+  }
+
 
 }
 
@@ -1160,7 +1193,6 @@ footer ul {
     color: #1B4049;
     font-style: normal;
     font-weight: bold;
-    margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 10rem;
 
@@ -1207,7 +1239,6 @@ footer ul {
     font-family: "Nunito", sans-serif;
     font-size: 1.8rem;
     color: #343434;
-    margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 4.8rem;
     line-height: 4rem;
@@ -1284,6 +1315,11 @@ footer ul {
     padding-right: 1rem;
   }
 
+  .hero-grid > article {
+    padding-left: 2rem;
+
+  }
+
 
 }
 
@@ -1317,7 +1353,6 @@ footer ul {
     color: #1B4049;
     font-style: normal;
     font-weight: bold;
-    margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 10rem;
 
@@ -1364,7 +1399,6 @@ footer ul {
     font-family: "Nunito", sans-serif;
     font-size: 1.8rem;
     color: #343434;
-    margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 4.8rem;
     line-height: 4rem;
@@ -1441,6 +1475,11 @@ footer ul {
     padding-right: 1rem;
   }
 
+  .hero-grid > article {
+    padding-left: 2rem;
+
+  }
+
 
 }
 
@@ -1474,7 +1513,6 @@ footer ul {
     color: #1B4049;
     font-style: normal;
     font-weight: bold;
-    margin-left: 1.5rem;
     margin-right: 1.5rem;
     margin-top: 10rem;
 
@@ -1521,7 +1559,6 @@ footer ul {
     font-family: "Nunito", sans-serif;
     font-size: 1.6rem;
     color: #343434;
-    margin-left: 1.5rem;
     margin-right: 1.5rem;
     margin-top: 4.8rem;
     line-height: 4rem;
@@ -1606,6 +1643,11 @@ footer ul {
     margin-top: 8rem;
     margin-left: 3rem;
     margin-right: 3rem;
+
+  }
+
+  .hero-grid > article {
+    padding-left: 2rem;
 
   }
 
