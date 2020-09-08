@@ -241,7 +241,6 @@ button:hover {
   width: 100%;
   height: auto;
   object-fit: contain;
-
 }
 
 .canopy-img {
@@ -564,7 +563,7 @@ footer ul {
 
 }
 
-/* CANOPY CASE STUDY CSS */
+/* -------------------------CANOPY CASE STUDY CSS ----------------------------*/
 
 .user-graph-1 {
 
@@ -593,8 +592,135 @@ footer ul {
   margin-right: auto;
 }
 
+.canopy-description {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
 
-/* Media Queries */
+.canopy-buttons {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.view-desktop > button {
+  border: 2px solid #1B4049;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #1B4049;
+}
+
+.view-desktop > button:hover {
+  border: 2px solid #1B4049;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.view-mobile > button {
+  border: 2px solid #1B4049;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #1B4049;
+}
+
+.view-mobile > button:hover {
+  border: 2px solid #1B4049;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.canopy-pics {
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat (12, 1fr);
+  grid-gap: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  align-items: stretch;
+}
+
+.canopy-pics > article img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+
+}
+
+.canopy-desktop-img {
+  background-color: #FCE2C1;
+  border-radius: 5px;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  align-items: center;
+}
+
+.canopy-pics > article {
+  display: flex;
+}
+
+#canopy-desk-pic {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.canopy-mobile-img {
+  background-color: #FDD5D5;
+  border-radius: 5px;
+  grid-column-start: 8;
+  grid-column-end: 12;
+  align-items: center;
+}
+
+
+#canopy-mobile-pic {
+  padding-top: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+
+/* ---------------------------- Media Queries ---------------------------- */
 
 @media only screen and (max-width: 1200px) {
 
