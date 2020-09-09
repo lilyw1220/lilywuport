@@ -56,7 +56,6 @@ h4 {
   font-style: normal;
   font-weight: bold;
   padding-top: 2rem;
-  margin-left: 4.5rem;
 
 }
 
@@ -67,7 +66,6 @@ h5 {
   font-size: 20px;
   line-height: 50px;
   color: #1B4049;
-  margin-left: 4.5rem;
   padding-top: 6rem;
 
 }
@@ -338,6 +336,11 @@ button:hover {
 
 }
 
+.canopy-title > h4 {
+  margin-left: 4.5rem;
+  margin-top: 8rem;
+}
+
 /* BusyBus */
 
 .busybus-grid {
@@ -438,6 +441,9 @@ button:hover {
 
 }
 
+.busybus-title > h4 {
+  margin-left: 4.5rem;
+}
 
 
 /* About Me */
@@ -456,7 +462,6 @@ button:hover {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  margin-left: 4.5rem;
   margin-top: 1.5rem;
 
 /* or 187% */
@@ -855,8 +860,7 @@ footer ul {
     font-style: normal;
     font-weight: bold;
     padding-top: 3rem;
-    margin-right: 4.5rem;
-    margin-left: 4.5rem;
+
 
   }
 
@@ -1021,8 +1025,6 @@ footer ul {
     font-style: normal;
     font-weight: bold;
     padding-top: 3rem;
-    margin-right: 4.5rem;
-    margin-left: 4.5rem;
 
   }
 
@@ -1192,8 +1194,6 @@ footer ul {
     font-style: normal;
     font-weight: bold;
     padding-top: 3rem;
-    margin-right: 4.5rem;
-    margin-left: 4.5rem;
 
   }
 
@@ -1355,8 +1355,6 @@ footer ul {
     font-style: normal;
     font-weight: bold;
     padding-top: 3rem;
-    margin-right: 4.5rem;
-    margin-left: 4.5rem;
 
   }
 
@@ -1515,8 +1513,6 @@ footer ul {
     font-style: normal;
     font-weight: bold;
     padding-top: 3rem;
-    margin-right: 4.5rem;
-    margin-left: 4.5rem;
 
   }
 
@@ -1675,8 +1671,6 @@ footer ul {
     font-style: normal;
     font-weight: bold;
     padding-top: 3rem;
-    margin-right: 4.5rem;
-    margin-left: 4.5rem;
 
   }
 
