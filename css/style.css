@@ -137,13 +137,13 @@ header {
 }
 
 
-li, a {
+/* li, a {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
     font-size: 2rem;
     color: #1B4049;
     text-decoration: none;
-}
+} */
 
 .nav__links {
     list-style: none;
@@ -161,6 +161,7 @@ li, a {
     font-size: 2rem;
     color: #1B4049;
     transition: all 0.3s ease 0s;
+    text-decoration: none;
 }
 
 .nav__links li a:hover {
@@ -270,6 +271,7 @@ button:hover {
   line-height: 50px;
   padding-left: 0.5rem;
   color: #1B4049;
+  text-decoration: none;
 
 }
 
@@ -724,7 +726,137 @@ footer ul {
   padding-right: 10rem;
 }
 
+.canopy-overview {
 
+  margin-top: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  align-items: stretch;
+  text-align: center;
+
+}
+
+
+.canopy-design-roles > ul {
+  margin-top: 3rem;
+  list-style: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: #343434;
+}
+
+.canopy-deliverables > ul {
+  margin-top: 3rem;
+  list-style: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: #343434;
+}
+
+.canopy-specifications > ul {
+  margin-top: 3rem;
+  list-style: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: #343434;
+}
+
+.canopy-problem-solution {
+  margin-left: 30rem;
+  margin-top: 15rem;
+}
+
+#canopy-body-text {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.0rem;
+  line-height: 3rem;
+  margin-top: 5rem;
+  margin-right: 30rem;
+  margin-bottom: 5rem;
+}
+
+.canopy-design-roles > h4 {
+  text-align: center;
+}
+
+.canopy-deliverables > h4 {
+  text-align: center;
+}
+
+.canopy-specifications > h4 {
+  text-align: center;
+}
+
+.canopy-design-process {
+
+  margin-top: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  align-items: stretch;
+  text-align: center;
+  height: 10rem;
+  width: 100%;
+  background:rgba(27, 64, 73, 0.1);
+}
+
+.canopy-design-process-title > h4 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.canopy-design-steps {
+
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  align-items: stretch;
+  text-align: center;
+  height: 30rem;
+  width: 100%;
+  background:rgba(27, 64, 73, 0.1);
+}
+
+#canopy-design-step-one {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.3rem;
+
+  color: #525151;
+
+  opacity: 0.99;
+}
 /* ---------------------------- Media Queries ---------------------------- */
 
 @media only screen and (max-width: 1200px) {
