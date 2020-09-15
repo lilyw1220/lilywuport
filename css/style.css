@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Nunito:wght@400;700&family=Roboto:wght@500&display=swap');
 
 /* Global CSS */
 
@@ -745,7 +745,7 @@ footer ul {
 .canopy-design-roles > ul {
   margin-top: 3rem;
   list-style: none;
-  font-family: Nunito;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 2rem;
@@ -757,7 +757,7 @@ footer ul {
 .canopy-deliverables > ul {
   margin-top: 3rem;
   list-style: none;
-  font-family: Nunito;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 2rem;
@@ -769,7 +769,7 @@ footer ul {
 .canopy-specifications > ul {
   margin-top: 3rem;
   list-style: none;
-  font-family: Nunito;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 2rem;
@@ -826,7 +826,7 @@ footer ul {
 .canopy-design-process-title > h4 {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5rem;
+  padding-top: 8rem;
   text-align: center;
 }
 
@@ -836,9 +836,10 @@ footer ul {
   margin-right: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 2rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  grid-gap: 1rem;
+  padding-top: 4rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
   align-items: stretch;
   text-align: center;
   height: 30rem;
@@ -846,17 +847,46 @@ footer ul {
   background:rgba(27, 64, 73, 0.1);
 }
 
-#canopy-design-step-one {
-  font-family: Karla;
+#canopy-design-step-title {
+  font-family: "Karla";
   font-style: normal;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 2.3rem;
-
   color: #525151;
-
   opacity: 0.99;
 }
+
+.canopy-research > ul {
+
+  margin-top: 2rem;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  list-style: none;
+  text-align: center;
+  color: #343434;
+
+}
+
+.canopy-strategy > ul {
+
+  margin-top: 2rem;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  list-style: none;
+  text-align: center;
+  color: #343434;
+
+}
+
+
+
 /* ---------------------------- Media Queries ---------------------------- */
 
 @media only screen and (max-width: 1200px) {
