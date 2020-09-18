@@ -63,11 +63,22 @@ h5 {
   font-family: "Karla", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 50px;
   color: #1B4049;
   padding-top: 6rem;
 
+}
+
+h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-decoration-line: underline;
+  color: #525151;
+  opacity: 0.99;
 }
 
 
@@ -826,7 +837,7 @@ footer ul {
 .canopy-design-process-title > h4 {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 8rem;
+  padding-top: 6rem;
   text-align: center;
 }
 
@@ -834,15 +845,13 @@ footer ul {
 
   margin-left: auto;
   margin-right: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 1rem;
-  padding-top: 4rem;
+  display: flex;
+  padding-top: 3rem;
   padding-left: 6rem;
   padding-right: 6rem;
-  align-items: stretch;
+  justify-content: center;
   text-align: center;
-  height: 30rem;
+  height: 40rem;
   width: 100%;
   background:rgba(27, 64, 73, 0.1);
 }
@@ -853,13 +862,15 @@ footer ul {
   font-weight: bold;
   font-size: 1.8rem;
   line-height: 2.3rem;
+  text-align: center;
+  align-items: center;
   color: #525151;
   opacity: 0.99;
 }
 
 .canopy-research > ul {
 
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-family: "Karla";
   font-style: normal;
   font-weight: normal;
@@ -873,7 +884,7 @@ footer ul {
 
 .canopy-strategy > ul {
 
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-family: "Karla";
   font-style: normal;
   font-weight: normal;
@@ -885,6 +896,94 @@ footer ul {
 
 }
 
+.canopy-info-arch > ul {
+
+  margin-top: 1rem;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  list-style: none;
+  text-align: center;
+  color: #343434;
+
+}
+
+.canopy-branding > ul {
+
+  margin-top: 1rem;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  list-style: none;
+  text-align: center;
+  color: #343434;
+
+}
+
+.canopy-visual > ul {
+
+  margin-top: 1rem;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  list-style: none;
+  text-align: center;
+  color: #343434;
+
+}
+
+.canopy-conclusion > ul {
+
+  margin-top: 1rem;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  list-style: none;
+  text-align: center;
+  color: #343434;
+
+}
+
+
+.canopy-strategy {
+  align-self: flex-end;
+  padding-bottom: 5rem;
+}
+
+.canopy-branding {
+  align-self: flex-end;
+  padding-bottom: 5rem;
+}
+
+.canopy-conclusion {
+  align-self: flex-end;
+  padding-bottom: 5rem;
+}
+
+.canopy-vert-line-1 {
+  margin-top: 6rem;
+  margin-left: -56rem;
+  border: 1px solid #1B4049;
+  height: 14rem;
+  position: absolute;
+}
+
+.canopy-research-1 > h2, h6 {
+  text-align: left;
+  margin-left: 40rem;
+}
+
+.canopy-research-1 > h6 {
+  margin-top: 5rem;
+}
 
 
 /* ---------------------------- Media Queries ---------------------------- */
