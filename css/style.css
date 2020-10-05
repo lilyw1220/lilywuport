@@ -1126,7 +1126,7 @@ footer ul {
   padding-bottom: 1.5rem;
 }
 
-.view-swot > button {
+.click-through-button > button {
   border: 2px solid #1B4049;
   box-sizing: border-box;
   border-radius: 5px;
@@ -1141,7 +1141,7 @@ footer ul {
   color: #1B4049;
 }
 
-.view-swot > button:hover {
+.click-through-button > button:hover {
   border: 2px solid #1B4049;
   box-sizing: border-box;
   border-radius: 5px;
@@ -1156,7 +1156,7 @@ footer ul {
   color: #FFFFFF;
 }
 
-.swot-button {
+.results-button {
   margin-top: 5rem;
   margin-left: auto;
   margin-right: auto;
@@ -1267,6 +1267,78 @@ color: #212121;
   text-align: center;
   color: #1B4049;
   opacity: 0.99;
+}
+
+.client-features {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 9rem;
+  align-items: stretch;
+  text-align: center;
+  width: 100%;
+  background:rgba(27, 64, 73, 0.1);
+
+}
+
+.client-features > article > ul {
+
+  margin-top: 3rem;
+  margin-left: 8rem;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-align: left;
+  color: #343434;
+
+}
+
+.client-features-text {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.client-features-conclusion {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 9rem;
+  text-align: center;
+  width: 100%;
+  background:rgba(27, 64, 73, 0.1);
+
+}
+
+.client-features-conclusion > p {
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #1B4049;
+  opacity: 0.99;
+
+}
+
+.canopy-strategy-2 > h2, h6 {
+  text-align: left;
+  margin-left: 40rem;
+}
+
+.canopy-strategy-2 > h6 {
+  margin-top: 5rem;
 }
 
 
