@@ -1430,6 +1430,40 @@ color: #212121;
   margin-right: auto;
 }
 
+.canopy-sketches {
+  margin-top: 5rem;
+}
+
+.canopy-sketch-screens {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.canopy-wire-pics {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.canopy-wireframes {
+  margin-top: 5rem;
+}
+
+
 
 /* ---------------------------- Media Queries ---------------------------- */
 
