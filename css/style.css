@@ -1371,7 +1371,7 @@ color: #212121;
 
 }
 
-.user-stories {
+.canopy-user-stories {
   padding-top: 4rem;
 }
 
@@ -1515,6 +1515,68 @@ color: #212121;
   margin-bottom: 1rem;
 
 }
+
+.canopy-branding-4 > h2, h6 {
+  text-align: left;
+  margin-left: 40rem;
+}
+
+
+.canopy-branding-4 > h6 {
+  margin-top: 5rem;
+}
+
+.canopy-principles {
+
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 9rem;
+  text-align: center;
+  width: 100%;
+  background:rgba(27, 64, 73, 0.1);
+
+}
+
+.canopy-user-stories {
+  padding-top: 4rem;
+}
+
+.canopy-colors {
+  padding-top: 7rem;
+}
+
+.canopy-brand-palette {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 9rem;
+  align-items: stretch;
+  text-align: center;
+  width: 100%;
+  background:rgba(27, 64, 73, 0.1);
+
+}
+
+#canopy-color-text {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  color: #343434;
+  margin-top: 4.8rem;
+  line-height: 3.2rem;
+
+}
+
 
 
 /* ---------------------------- Media Queries ---------------------------- */
