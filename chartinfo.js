@@ -62,7 +62,7 @@ var vertbarChart = new Chart(userchart2, {
             type: 'bar'
 
       }],
-        labels: ['Organize Content Using Tags, Folders, or Categories', 'Ability to Save Content from the Web (links, videos, articles, etc.)', 'Create Content', 'Share Files and Folders', 'Edit Files in the Cloud', 'Simultaneously Collaborate on Files in the Cloud', 'Ability to Upload Files from a Computer or Mobile Device']
+        labels: ['Organize Content with Tags', 'Saving Web links', 'Create Content', 'Share Files and Folders', 'Edit Files in the Cloud', 'Simultaneous collaboration', 'Upload From Devices']
     },
     options: {
         scales: {

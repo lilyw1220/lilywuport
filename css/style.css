@@ -796,7 +796,7 @@ footer ul {
 }
 
 .canopy-problem-solution > article > h4 {
-  margin-left: 30rem;
+  margin-left: 40rem;
 }
 
 #canopy-body-text-2 {
@@ -806,8 +806,8 @@ footer ul {
   font-size: 2.0rem;
   line-height: 3.2rem;
   margin-top: 5rem;
-  margin-right: 30rem;
-  margin-left: 30rem;
+  margin-right: 40rem;
+  margin-left: 40rem;
   margin-bottom: 5rem;
 }
 
@@ -818,7 +818,7 @@ footer ul {
   font-size: 2.0rem;
   line-height: 3.2rem;
   margin-top: 5rem;
-  margin-right: 30rem;
+  margin-right: 40rem;
   margin-left: 40rem;
   margin-bottom: 5rem;
 }
@@ -1202,7 +1202,7 @@ color: #212121;
 }
 
 .cloud-uses-title {
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -1268,7 +1268,7 @@ color: #212121;
 
 }
 
-.client-features-text {
+.canopy-text-block {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
@@ -1447,6 +1447,11 @@ color: #212121;
   text-align: center;
 }
 
+.canopy-sketch-screens > article > img {
+  max-height: 423px;
+  max-width: 628px;
+}
+
 .canopy-wire-pics {
   margin-left: auto;
   margin-right: auto;
@@ -1457,6 +1462,11 @@ color: #212121;
   padding-bottom: 3rem;
   align-items: center;
   text-align: center;
+}
+
+.canopy-wire-pics > article > img {
+  max-height: 284px;
+  max-width: 363px;
 }
 
 .canopy-wireframes {
@@ -1472,6 +1482,11 @@ color: #212121;
   padding-bottom: 3rem;
   align-items: center;
   text-align: center;
+}
+
+.canopy-big-wireframe > article > img {
+  max-height: 430px;
+  max-width: 550px;
 }
 
 .user-test-round1 {
@@ -1491,7 +1506,7 @@ color: #212121;
   margin-left: 40rem;
 }
 
-.canopy-test-round1-pic {
+.canopy-test-round1-pic-a {
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -1501,6 +1516,30 @@ color: #212121;
   padding-bottom: 3rem;
   align-items: center;
   text-align: center;
+}
+
+.canopy-test-round1-pic-a article > img {
+  max-width: 550px;
+  max-height: 445px;
+
+}
+
+.canopy-test-round1-pic-b {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.canopy-test-round1-pic-b article > img {
+  max-width: 235px;
+  max-height: 350px;
+
 }
 
 #canopy-before-after {
@@ -1574,6 +1613,48 @@ color: #212121;
   color: #343434;
   margin-top: 4.8rem;
   line-height: 3.2rem;
+
+}
+
+.canopy-brand-text {
+  margin-left: auto;
+  margin-bottom: 8rem;
+  margin-right: auto;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 9rem;
+  align-items: stretch;
+  text-align: center;
+  width: 100%;
+  background:rgba(27, 64, 73, 0.1);
+
+}
+
+#canopy-heading-text-rubik {
+font-family: "Rubik";
+font-style: normal;
+font-weight: 500;
+text-align: left;
+padding-left: 13rem;
+padding-right: 13rem;
+font-size: 32px;
+line-height: 44px;
+color: #353636;
+
+}
+
+#canopy-body-text-karla {
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 13rem;
+  padding-right: 13rem;
+  color: #000000;
 
 }
 
