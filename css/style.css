@@ -1658,6 +1658,73 @@ color: #353636;
 
 }
 
+.canopy-logo-sketch {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.canopy-logo-sketch > article > img {
+  max-width: 500px;
+  max-height: 382px;
+}
+
+.canopy-final-logo {
+  margin-left: auto;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  margin-right: auto;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 9rem;
+  align-items: stretch;
+  text-align: center;
+  width: 100%;
+  background:rgba(27, 64, 73, 0.1);
+
+}
+
+.canopy-final-logo > article > img {
+  max-width: 353px;
+  max-height: 84px;
+
+}
+
+.canopy-design-5 > h2, h6 {
+  text-align: left;
+  margin-left: 40rem;
+}
+
+
+.canopy-design-5 > h6 {
+  margin-top: 5rem;
+}
+
+.canopy-visual-design-screens {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.canopy-visual-design-screens > article > img {
+  max-width: 852px;
+  max-height: 697px;
+
+}
+
 
 
 /* ---------------------------- Media Queries ---------------------------- */
