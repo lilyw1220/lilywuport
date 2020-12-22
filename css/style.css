@@ -971,7 +971,7 @@ footer ul {
 }
 
 
-.canopy-strategy {
+/*.canopy-strategy {
   align-self: flex-end;
   padding-bottom: 5rem;
 }
@@ -992,14 +992,23 @@ footer ul {
   border: 1px solid #1B4049;
   height: 14rem;
   position: absolute;
-}
+}*/
 
-.canopy-research-1 > h2, h6 {
+/*.canopy-research-1 > h2, h6 {
   text-align: left;
   margin-left: 40rem;
 }
 
 .canopy-research-1 > h6 {
+  margin-top: 5rem;
+}*/
+
+.canopy-process-section > h2, h6 {
+  text-align: left;
+  margin-left: 40rem;
+}
+
+.canopy-process-section > h6 {
   margin-top: 5rem;
 }
 
@@ -1183,6 +1192,7 @@ color: #212121;
 .cloud-uses-pics {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15rem;
@@ -1371,9 +1381,9 @@ color: #212121;
 
 }
 
-.canopy-user-stories {
+/*.canopy-user-stories {
   padding-top: 4rem;
-}
+}*/
 
 .new-user-task {
 
@@ -1406,14 +1416,14 @@ color: #212121;
 
 }
 
-.canopy-infoarch-3 > h2, h6 {
+/*.canopy-infoarch-3 > h2, h6 {
   text-align: left;
   margin-left: 40rem;
 }
 
 .canopy-infoarch-3 > h6 {
   margin-top: 5rem;
-}
+}*/
 
 .canopy-flow-1 {
   margin-left: auto;
@@ -1421,18 +1431,18 @@ color: #212121;
   margin-bottom: 5rem;
 }
 
-.canopy-sitemap > h6 {
+/*.canopy-sitemap > h6 {
   margin-top: 5rem;
-}
+}*/
 
 .canopy-sitemap-img {
   margin-left: auto;
   margin-right: auto;
 }
 
-.canopy-sketches {
+/*.canopy-sketches {
   margin-top: 5rem;
-}
+}*/
 
 .canopy-sketch-screens {
   margin-left: auto;
@@ -1469,9 +1479,9 @@ color: #212121;
   max-width: 363px;
 }
 
-.canopy-wireframes {
+/*.canopy-wireframes {
   margin-top: 5rem;
-}
+}*/
 
 .canopy-big-wireframe {
   margin-left: auto;
@@ -1489,9 +1499,9 @@ color: #212121;
   max-width: 550px;
 }
 
-.user-test-round1 {
+/*.user-test-round1 {
   margin-top: 5rem;
-}
+}*/
 
 #canopy-user-test-title {
   font-family: "Nunito", sans-serif;
@@ -1555,7 +1565,7 @@ color: #212121;
 
 }
 
-.canopy-branding-4 > h2, h6 {
+/*.canopy-branding-4 > h2, h6 {
   text-align: left;
   margin-left: 40rem;
 }
@@ -1563,7 +1573,7 @@ color: #212121;
 
 .canopy-branding-4 > h6 {
   margin-top: 5rem;
-}
+}*/
 
 .canopy-principles {
 
@@ -1585,9 +1595,9 @@ color: #212121;
   padding-top: 4rem;
 }
 
-.canopy-colors {
+/*.canopy-colors {
   padding-top: 7rem;
-}
+}*/
 
 .canopy-brand-palette {
   margin-left: auto;
@@ -1697,7 +1707,7 @@ color: #353636;
 
 }
 
-.canopy-design-5 > h2, h6 {
+/*.canopy-design-5 > h2, h6 {
   text-align: left;
   margin-left: 40rem;
 }
@@ -1705,7 +1715,7 @@ color: #353636;
 
 .canopy-design-5 > h6 {
   margin-top: 5rem;
-}
+}*/
 
 .canopy-visual-design-screens {
   margin-left: auto;
