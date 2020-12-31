@@ -1725,6 +1725,7 @@ color: #353636;
   grid-template-columns: 1fr;
   padding-top: 2rem;
   padding-bottom: 3rem;
+  margin-bottom: 5rem;
   align-items: center;
   text-align: center;
 }
@@ -1735,6 +1736,44 @@ color: #353636;
 
 }
 
+.canopy-preference-test1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 8rem;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.canopy-preference-test1 > article > img {
+  max-width: 200px;
+  max-height: 90px;
+}
+
+#green-check-mark {
+  max-width: 50px;
+  max-height: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.canopy-testing {
+  margin-top: 10rem;
+}
+
+.canopy-preference-test2 {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 8rem;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  text-align: center;
+}
 
 
 /* ---------------------------- Media Queries ---------------------------- */
