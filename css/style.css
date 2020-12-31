@@ -1769,10 +1769,21 @@ color: #353636;
   display: grid;
   grid-gap: 8rem;
   grid-template-columns: 1fr 1fr;
-  padding-top: 2rem;
+  margin-top: -2rem;
   padding-bottom: 3rem;
   align-items: center;
   text-align: center;
+}
+
+.canopy-preference-test2 > article > img {
+  max-width: 320px;
+  max-height: 280px;
+}
+
+#green-check-mark2 {
+  max-width: 50px;
+  max-height: 50px;
+  margin-bottom: 12rem;
 }
 
 
