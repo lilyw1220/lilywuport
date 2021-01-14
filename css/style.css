@@ -14,6 +14,7 @@ html {
 }
 
 
+
 h1 {
   display: block;
   font-size: 4.8rem;
@@ -98,7 +99,6 @@ p {
   max-width: 1440px;
   margin: 0 auto;
 }
-
 
 .logo {
   margin-right: auto;
@@ -1025,7 +1025,18 @@ footer ul {
   padding-bottom: 9rem;
   align-items: stretch;
   text-align: center;
-  width: 100%;
+  width: 1400px;
+
+}
+
+.extended-background {
+  left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
   background:rgba(27, 64, 73, 0.1);
 
 }
@@ -1744,6 +1755,7 @@ color: #353636;
   grid-template-columns: 1fr 1fr;
   padding-top: 2rem;
   padding-bottom: 3rem;
+  margin-bottom: 7rem;
   align-items: center;
   text-align: center;
 }
@@ -1771,6 +1783,7 @@ color: #353636;
   grid-template-columns: 1fr 1fr;
   margin-top: -2rem;
   padding-bottom: 3rem;
+  margin-bottom: 7rem;
   align-items: center;
   text-align: center;
 }
@@ -1786,8 +1799,125 @@ color: #353636;
   margin-bottom: 12rem;
 }
 
+.canopy-preference-test3 {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 8rem;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -2rem;
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  text-align: center;
+}
+
+.canopy-preference-test3 > article > img {
+  max-width: 300px;
+  max-height: 60px;
+}
+
+#green-check-mark3 {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.canopy-user-test-round2 {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 8rem;
+  grid-template-columns: 1fr;
+  margin-top: -2rem;
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  text-align: center;
+}
+
+.canopy-user-test-round2 > article > img {
+  max-width: 557px;
+  max-height: 192px;
+}
+
+.canopy-design-progression {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 8rem;
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  text-align: center;
+}
+
+.canopy-design-progression > article > img {
+  max-width: 670px;
+  max-height: 470px;
+}
+
+.canopy-conclusion {
+  margin-top: 10rem;
+}
+
+#canopy-thanks {
+
+font-family: "Karla";
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+color: #1B4049;
+opacity: 0.99;
+
+}
+
+.canopy-thankyou {
+  margin-top: 5rem;
+}
+
+.canopy-smile {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#next-project {
+
+font-family: "Karla";
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+text-align: right;
+color: #747171;
+opacity: 0.99;
+
+}
+
+.next-project {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 100rem;
+}
+
+
+.next-project > article > a {
+  margin-top: 4.3rem;
+}
+
 
 /* ---------------------------- Media Queries ---------------------------- */
+
+@media only screen and (max-width: 1400px) {
+  .canopy-competition-pic {
+    width: 100%;
+  }
+}
 
 @media only screen and (max-width: 1200px) {
 
