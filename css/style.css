@@ -200,7 +200,7 @@ button {
 
 
 button {
-    margin-left: 2rem;
+    /*margin-left: 2rem;*/
     padding: 0.9rem 2.5rem;
     background-color: #FFFFFF;
     color: #1B4049;
@@ -247,7 +247,7 @@ button:hover {
   align-items: stretch;
 }
 
-.canopy-grid > article img {
+.canopy-grid > article > img {
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -280,10 +280,13 @@ button:hover {
   font-weight: 700;
   font-size: 18px;
   line-height: 50px;
-  padding-left: 0.5rem;
+  /*padding-left: 0.5rem;*/
   color: #1B4049;
   text-decoration: none;
+}
 
+.canopy-bullet > li {
+  padding-left: 0.5rem;
 }
 
 .canopy-bullet {
@@ -333,6 +336,7 @@ button:hover {
   font-size: 2rem;
   line-height: 30px;
   color: #1B4049;
+  margin-right: 11rem;
 
 
 }
@@ -402,9 +406,13 @@ button:hover {
   font-weight: 700;
   font-size: 18px;
   line-height: 50px;
-  padding-left: 0.5rem;
+  /*padding-left: 0.5rem;*/
   color: #1B4049;
 
+}
+
+.busybus-bullet > li {
+  padding-left: 0.5rem;
 }
 
 .busybus-bullet {
@@ -438,6 +446,7 @@ button:hover {
   font-size: 2rem;
   line-height: 30px;
   color: #1B4049;
+  margin-right: 11rem;
 
 
 }
@@ -621,9 +630,12 @@ footer ul {
 }
 
 .canopy-buttons {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 
@@ -722,6 +734,8 @@ footer ul {
   padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  width: 100%;
+  height: auto;
 }
 
 .canopy-mobile-img {
@@ -737,6 +751,8 @@ footer ul {
   padding-top: 10rem;
   padding-left: 10rem;
   padding-right: 10rem;
+  width: 100%;
+  height: auto;
 }
 
 .canopy-overview {
@@ -1013,30 +1029,21 @@ footer ul {
 }
 
 .canopy-competition-pic {
-  margin-top: 10rem;
-  margin-left: auto;
-  margin-right: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 15rem;
-  padding-left: 7rem;
-  padding-right: 7rem;
-  padding-top: 2rem;
-  padding-bottom: 9rem;
-  align-items: stretch;
+  grid-template-columns: min-content min-content min-content;
+  justify-content: center;
+  grid-gap: 25rem;
+  padding-bottom: 7rem;
   text-align: center;
-  width: 1400px;
+}
+
+.canopy-competition-pic > article > h5 {
+  margin-bottom: 2.5rem;
 
 }
 
 .extended-background {
-  left: 50%;
-	margin-left: -50vw;
-	margin-right: -50vw;
-	max-width: 100vw;
-	position: relative;
-	right: 50%;
-	width: 100vw;
+
   background:rgba(27, 64, 73, 0.1);
 
 }
@@ -1913,13 +1920,9 @@ opacity: 0.99;
 
 /* ---------------------------- Media Queries ---------------------------- */
 
-@media only screen and (max-width: 1400px) {
-  .canopy-competition-pic {
-    width: 100%;
-  }
-}
-
 @media only screen and (max-width: 1200px) {
+
+/*----------------------------------*/
 
     .nav__links, .cta {
         display: none;
@@ -1946,7 +1949,7 @@ opacity: 0.99;
       height: auto;
     }
 
-    p {
+    .hero-grid > article > p {
       display: block;
       font-family: "Nunito", sans-serif;
       font-size: 2.6rem;
@@ -2056,7 +2059,7 @@ opacity: 0.99;
 
   }
 
-  p {
+  .hero-grid > article > p {
     display: block;
     font-family: "Nunito", sans-serif;
     font-size: 2.6rem;
@@ -2220,7 +2223,7 @@ opacity: 0.99;
 
   }
 
-  p {
+  .hero-grid > article > p {
     display: block;
     font-family: "Nunito", sans-serif;
     font-size: 2rem;
@@ -2389,7 +2392,7 @@ opacity: 0.99;
 
   }
 
-  p {
+  .hero-grid > article > p {
     display: block;
     font-family: "Nunito", sans-serif;
     font-size: 2rem;
@@ -2550,7 +2553,7 @@ opacity: 0.99;
 
   }
 
-  p {
+  .hero-grid > article > p {
     display: block;
     font-family: "Nunito", sans-serif;
     font-size: 1.8rem;
@@ -2708,7 +2711,7 @@ opacity: 0.99;
 
   }
 
-  p {
+  .hero-grid > article >p {
     display: block;
     font-family: "Nunito", sans-serif;
     font-size: 1.8rem;
@@ -2866,7 +2869,7 @@ opacity: 0.99;
 
   }
 
-  p {
+  .hero-grid > article > p {
     display: block;
     font-family: "Nunito", sans-serif;
     font-size: 1.6rem;
