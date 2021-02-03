@@ -1941,6 +1941,7 @@ opacity: 0.99;
       margin-right: 10rem;
 
     }
+
     #profile img {
       display: block;
       margin-left: auto;
@@ -1962,6 +1963,15 @@ opacity: 0.99;
 
     .canopy-grid {
       display: block;
+    }
+
+    .canopy-description > #canopy-header-p {
+      display: block;
+      font-family: "Nunito", sans-serif;
+      font-size: 2.6rem;
+      color: #343434;
+      margin-top: 4.8rem;
+      line-height: 4.8rem;
     }
 
     #canopy-cs-pic {
@@ -2006,13 +2016,47 @@ opacity: 0.99;
 
 }
 
+@media only screen and (max-width: 960px) {
+
+  .canopy-pics {
+    display: block;
+    align-items: stretch;
+
+  }
+
+
+  #canopy-mobile-pic {
+    padding-top: 7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: 60%;
+    height: auto;
+    align-items: center;
+  }
+
+  #canopy-desk-pic {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .canopy-mobile-img {
+    justify-content: center;
+  }
+
+  .canopy-desktop-img {
+    margin-bottom: 1.5rem;
+  }
+
+
+}
+
 @media only screen and (max-width: 800px) {
 
   .canopy-bullet {
     display: none;
   }
 
-  h1 {
+  /*h1 {
     display: block;
     font-size: 4.8rem;
     font-family: "Roboto", sans-serif;
@@ -2020,6 +2064,37 @@ opacity: 0.99;
     font-style: normal;
     font-weight: bold;
     margin-right: 11rem;
+    margin-top: 10rem;
+
+  }*/
+
+  .canopy-buttons {
+    display: block;
+  }
+
+  .view-desktop > button {
+    margin-bottom: 2rem;
+  }
+
+  .canopy-description {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+.canopy-title > h1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3.6rem;
+
+  }
+
+  .canopy-title > h1 {
+    display: block;
+    font-size: 4.8rem;
+    font-family: "Roboto", sans-serif;
+    color: #1B4049;
+    font-style: normal;
+    font-weight: bold;
     margin-top: 10rem;
 
   }
@@ -2069,6 +2144,15 @@ opacity: 0.99;
     line-height: 4.8rem;
 
   }
+
+  .canopy-description > #canopy-header-p {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 2.6rem;
+  color: #343434;
+  margin-top: 4.8rem;
+  line-height: 4.8rem;
+}
 
   .canopy-grid {
     margin-top: 7rem;
@@ -2161,6 +2245,25 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 650px) {
+
+  .canopy-pics {
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.canopy-description > #canopy-header-p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.canopy-title > h1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3.6rem;
+}
 
   .logo {
     margin-right: auto;
@@ -2325,6 +2428,36 @@ opacity: 0.99;
 
 @media only screen and (max-width: 500px) {
 
+  .canopy-description > #canopy-header-p {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #343434;
+  margin-top: 4.8rem;
+  line-height: 3.8rem;
+}
+
+  .canopy-description {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #canopy-mobile-pic {
+    padding-top: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 60%;
+    height: auto;
+  }
+
+  .canopy-pics {
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .logo {
     margin-right: auto;
   }
@@ -2486,6 +2619,37 @@ opacity: 0.99;
 
 @media only screen and (max-width: 400px) {
 
+  .canopy-description > #canopy-header-p {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #343434;
+  margin-top: 4.8rem;
+  line-height: 3.8rem;
+}
+
+  .canopy-description {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .canopy-title > h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.8rem;
+  }
+
+
+
+  #canopy-mobile-pic {
+    padding-top: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 60%;
+    height: auto;
+  }
+
+
   .logo {
     margin-right: auto;
   }
@@ -2643,6 +2807,42 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 380px) {
+
+  .canopy-description > #canopy-header-p {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    font-size: 2rem;
+    color: #343434;
+    margin-top: 4.8rem;
+    line-height: 3.8rem;
+  }
+
+  .canopy-description {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .canopy-title > h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.8rem;
+  }
+
+  #canopy-mobile-pic {
+    padding-top: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 60%;
+    height: auto;
+  }
+
+  .canopy-pics {
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
   .logo {
     margin-right: auto;
