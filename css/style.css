@@ -436,6 +436,22 @@ button:hover {
   color: #1B4049;
 }
 
+.view-busybus > button:hover {
+  border: 2px solid #1B4049;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 
 #busybus-desc {
   margin-top: 4rem;
