@@ -774,18 +774,16 @@ footer ul {
 .canopy-overview {
 
   margin-top: 15rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 15rem;
-  padding-left: 7rem;
-  padding-right: 7rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: flex;
   align-items: stretch;
-  text-align: center;
-
+  justify-content: space-between;
 }
 
+.canopy-overview > article {
+  flex-basis: 30%;
+}
 
 .canopy-design-roles > ul {
   margin-top: 3rem;
@@ -828,7 +826,8 @@ footer ul {
 }
 
 .canopy-problem-solution > article > h4 {
-  margin-left: 40rem;
+  margin-left: 35rem;
+  margin-right: 35rem;
 }
 
 #canopy-body-text-2 {
@@ -850,8 +849,8 @@ footer ul {
   font-size: 2.0rem;
   line-height: 3.2rem;
   margin-top: 5rem;
-  margin-right: 40rem;
-  margin-left: 40rem;
+  margin-left: 35rem;
+  margin-right: 35rem;
   margin-bottom: 5rem;
 }
 
@@ -1938,6 +1937,17 @@ opacity: 0.99;
 
 @media only screen and (max-width: 1200px) {
 
+  .canopy-problem-solution > article > h4 {
+    margin-left: 25rem;
+    margin-right: 25rem;
+  }
+
+  #canopy-body-text {
+
+    margin-left: 25rem;
+    margin-right: 25rem;
+  }
+
 /*----------------------------------*/
 
     .nav__links, .cta {
@@ -2034,6 +2044,17 @@ opacity: 0.99;
 
 @media only screen and (max-width: 960px) {
 
+  .canopy-problem-solution > article > h4 {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+
+  #canopy-body-text {
+
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+
   .canopy-pics {
     display: block;
     align-items: stretch;
@@ -2067,6 +2088,17 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 800px) {
+
+  .canopy-problem-solution > article > h4 {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  #canopy-body-text {
+
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
 
   .canopy-bullet {
     display: none;
@@ -2260,7 +2292,42 @@ opacity: 0.99;
 
 }
 
+@media only screen and (max-width: 600px) {
+
+  .canopy-problem-solution > article > h4 {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  #canopy-body-text {
+
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+}
+
 @media only screen and (max-width: 650px) {
+
+  .canopy-problem-solution > article > h4 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  #canopy-body-text {
+
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .canopy-overview {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: block;
+  }
+  .canopy-overview > article {
+    margin-bottom: 3rem;
+  }
 
   .canopy-pics {
   margin-top: 7rem;
@@ -2443,6 +2510,17 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 500px) {
+
+  .canopy-problem-solution > article > h4 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  #canopy-body-text {
+
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
 
   .canopy-description > #canopy-header-p {
   display: block;
@@ -2634,6 +2712,17 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 400px) {
+
+  .canopy-problem-solution > article > h4 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  #canopy-body-text {
+
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 
   .canopy-description > #canopy-header-p {
   display: block;
