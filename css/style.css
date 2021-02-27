@@ -1036,7 +1036,7 @@ footer ul {
 
 .canopy-process-section > h2, h6 {
   text-align: left;
-  margin-left: 40rem;
+  margin-left: 35rem;
 }
 
 .canopy-process-section > h6 {
@@ -1345,7 +1345,7 @@ color: #212121;
 
 .canopy-strategy-2 > h2, h6 {
   text-align: left;
-  margin-left: 40rem;
+  margin-left: 35rem;
 }
 
 .canopy-strategy-2 > h6 {
@@ -1937,6 +1937,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 1200px) {
 
+  .canopy-process-section > h2, h6 {
+    margin-right: 25rem;
+    margin-left: 25rem;
+  }
+
   .canopy-problem-solution > article > h4 {
     margin-left: 25rem;
     margin-right: 25rem;
@@ -2044,6 +2049,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 960px) {
 
+  .canopy-process-section > h2, h6 {
+    margin-right: 20rem;
+    margin-left: 20rem;
+  }
+
   .canopy-problem-solution > article > h4 {
     margin-left: 20rem;
     margin-right: 20rem;
@@ -2088,6 +2098,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 800px) {
+
+  .canopy-process-section > h2, h6 {
+    margin-right: 15rem;
+    margin-left: 15rem;
+  }
 
   .canopy-problem-solution > article > h4 {
     margin-left: 15rem;
@@ -2294,6 +2309,8 @@ opacity: 0.99;
 
 @media only screen and (max-width: 600px) {
 
+
+
   .canopy-problem-solution > article > h4 {
     margin-left: 15rem;
     margin-right: 15rem;
@@ -2307,6 +2324,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 650px) {
+
+  .canopy-process-section > h2, h6 {
+    margin-right: 10rem;
+    margin-left: 10rem;
+  }
 
   .canopy-problem-solution > article > h4 {
     margin-left: 10rem;
@@ -2511,6 +2533,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 500px) {
 
+  .canopy-process-section > h2, h6 {
+    margin-right: 8rem;
+    margin-left: 8rem;
+  }
+
   .canopy-problem-solution > article > h4 {
     margin-left: 8rem;
     margin-right: 8rem;
@@ -2713,6 +2740,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 400px) {
 
+  .canopy-process-section > h2, h6 {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
   .canopy-problem-solution > article > h4 {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -2912,6 +2944,32 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 380px) {
+
+  h2 {
+    font-size: 2.2rem;
+
+  }
+
+  h6 {
+    font-size: 2.0rem;
+  }
+
+  .canopy-process-section > h2, h6 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .canopy-problem-solution > article > h4 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  #canopy-body-text {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 
   .canopy-description > #canopy-header-p {
     display: block;
