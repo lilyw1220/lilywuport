@@ -1074,20 +1074,21 @@ footer ul {
 
 #canopy-card-text {
   font-family: "Karla";
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 3rem;
+  margin-right: 3rem;
+  text-align: left;
 }
 
 .canopy-competition-text > p {
   margin-top: 1rem;
-  margin-left: -15rem;
+  margin-left: -13rem;
 }
 
 .canopy-competition-text > img {
   margin-top: 1rem;
   margin-left: 3rem;
 }
-
 
 .google > h5 {
   margin-bottom: 2rem;
@@ -1905,7 +1906,76 @@ opacity: 0.99;
 
 /* ---------------------------- Media Queries ---------------------------- */
 
+@media only screen and (max-width: 1400px) {
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -10rem;
+  }
+
+}
+
+@media only screen and (max-width: 1370px) {
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -10rem;
+  }
+
+}
+
+@media only screen and (max-width: 1350px) {
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-right: 2rem;
+  }
+
+
+}
+
+@media only screen and (max-width: 1340px) {
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-right: 2rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -10rem;
+  }
+
+
+}
+
+@media only screen and (max-width: 1220px) {
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -7rem;
+  }
+
+}
+
+
 @media only screen and (max-width: 1200px) {
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -8rem;
+  }
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-right: 2rem;
+  }
 
   .canopy-process-section > h2, h6 {
     margin-right: 25rem;
@@ -2017,6 +2087,73 @@ opacity: 0.99;
 
 }
 
+@media only screen and (max-width: 1100px) {
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -5rem;
+  }
+
+}
+
+@media only screen and (max-width: 1080px) {
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -7rem;
+  }
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -5rem;
+  }
+
+}
+
+@media only screen and (max-width: 1030px) {
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -5rem;
+  }
+
+}
+
+@media only screen and (max-width: 1020px) {
+
+  .canopy-competition-text {
+    padding-bottom: 5rem;
+  }
+
+  .canopy-competition-container {
+    display: block;
+  }
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-right: 15rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -15rem;
+  }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 15rem;
+  }
+
+
+}
+
+
 @media only screen and (max-width: 960px) {
 
   .canopy-process-section > h2, h6 {
@@ -2064,6 +2201,27 @@ opacity: 0.99;
     margin-bottom: 1.5rem;
   }
 
+
+}
+
+@media only screen and (max-width: 810px) {
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-right: 10rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -15rem;
+  }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 10rem;
+  }
 
 }
 
@@ -2277,23 +2435,78 @@ opacity: 0.99;
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
 
-
-
-  .canopy-problem-solution > article > h4 {
-    margin-left: 15rem;
-    margin-right: 15rem;
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-right: 7rem;
   }
 
-  #canopy-body-text {
-
-    margin-left: 15rem;
-    margin-right: 15rem;
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -15rem;
   }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 7rem;
+  }
+
 }
 
+@media only screen and (max-width: 670px) {
+
+  .canopy-competition-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-right: 5rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -15rem;
+  }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+
+}
+
+
 @media only screen and (max-width: 650px) {
+
+  .canopy-competition-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-right: 5rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -15rem;
+  }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+
 
   .canopy-process-section > h2, h6 {
     margin-right: 10rem;
@@ -2498,10 +2711,122 @@ opacity: 0.99;
       text-align: center;
     }
 
+}
+
+@media only screen and (max-width: 600px) {
+
+  .canopy-competition-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-right: 8rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -13rem;
+  }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 8rem;
+  }
+
+  .canopy-problem-solution > article > h4 {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  #canopy-body-text {
+
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+}
+
+
+@media only screen and (max-width: 554px) {
+
+  .canopy-competition-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-right: 5rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -13rem;
+  }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 540px) {
+
+  .canopy-competition-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-right: 8rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -8rem;
+  }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 8rem;
+  }
 
 }
 
 @media only screen and (max-width: 500px) {
+
+  .canopy-competition-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-right: 8rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -8rem;
+  }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 8rem;
+  }
 
   .canopy-process-section > h2, h6 {
     margin-right: 8rem;
@@ -2705,10 +3030,40 @@ opacity: 0.99;
 
   }
 
+}
+
+@media only screen and (max-width: 452px) {
+
+  .canopy-competition-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-right: 5rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -7rem;
+  }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
 
 }
 
 @media only screen and (max-width: 400px) {
+
+  .canopy-competition-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
   .canopy-process-section > h2, h6 {
     margin-right: 5rem;
@@ -2914,6 +3269,29 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 380px) {
+
+  .canopy-competition-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  #canopy-card-text {
+    font-family: "Karla";
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-right: 3rem;
+  }
+
+  .canopy-competition-text > p {
+    margin-top: 1rem;
+    margin-left: -7rem;
+  }
+
+  .canopy-competition-text > img {
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+
 
   h2 {
     font-size: 2.2rem;
