@@ -1052,6 +1052,20 @@ footer ul {
   text-align: center;
 }
 
+.user-stats {
+  margin-left: 8rem;
+  margin-right: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+  text-align: center;
+}
+
+.user-stats-text {
+  flex: 1;
+  background-color: #E8ECED;
+}
+
 .canopy-competition {
   flex: 1;
   background-color: #E8ECED;
@@ -1147,29 +1161,6 @@ footer ul {
   margin-top: 10rem;
 }
 
-.user-stats {
-  margin-top: 10rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 15rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-top: 2rem;
-  padding-bottom: 9rem;
-  align-items: stretch;
-  text-align: center;
-  width: 100%;
-  background:rgba(27, 64, 73, 0.1);
-
-}
-
-.user-stats > article {
-  margin-top: -5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .user-stats > article > h2 {
   text-align: center;
