@@ -1199,8 +1199,11 @@ footer ul {
 }
 
 #use-text {
-
   margin-bottom: 5rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  font-size: 2rem;
+  line-height: 3.2rem
 }
 
 .cloud-uses-pics {
@@ -1218,20 +1221,11 @@ footer ul {
   margin-left: auto;
   margin-right: auto;
   padding-top: 2rem;
-  padding-bottom: 9rem;
+  padding-bottom: 5rem;
   align-items: stretch;
   text-align: center;
   width: 100%;
 
-}
-
-.cloud-usage
-
-.cloud-uses-title > h4 {
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 6rem;
-  text-align: center;
 }
 
 .cloud-uses-pics > article > p {
@@ -1250,15 +1244,13 @@ footer ul {
   margin-right: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 15rem;
+  grid-gap: 10rem;
   padding-left: 15rem;
   padding-right: 15rem;
   padding-top: 2rem;
   padding-bottom: 9rem;
   align-items: stretch;
   text-align: center;
-  width: 100%;
-  background:rgba(27, 64, 73, 0.1);
 
 }
 
@@ -2119,9 +2111,14 @@ opacity: 0.99;
 
 @media only screen and (max-width: 1020px) {
 
-  .user-stats {
-    display: block;
+  #use-text {
+    padding-bottom: 4rem;
   }
+
+.canopy-competition-container, .user-stats, .cloud-usage, .client-features {
+  display: block;
+}
+
 
   .user-stats > article > p {
     font-family: "Nunito";
@@ -2148,9 +2145,6 @@ opacity: 0.99;
     padding-bottom: 5rem;
   }
 
-  .canopy-competition-container {
-    display: block;
-  }
 
   #canopy-card-text {
     font-family: "Karla";
@@ -2477,15 +2471,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 670px) {
 
-  .user-stats {
+  .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 5rem;
     margin-right: 5rem;
   }
 
-  .canopy-competition-container {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
 
   #canopy-card-text {
     font-family: "Karla";
@@ -2509,15 +2499,12 @@ opacity: 0.99;
 
 @media only screen and (max-width: 650px) {
 
-  .user-stats {
+
+  .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 5rem;
     margin-right: 5rem;
   }
 
-  .canopy-competition-container {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
 
   #canopy-card-text {
     font-family: "Karla";
@@ -2745,15 +2732,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 600px) {
 
-  .user-stats {
+  .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 3rem;
     margin-right: 3rem;
   }
 
-  .canopy-competition-container {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
 
   #canopy-card-text {
     font-family: "Karla";
@@ -2787,15 +2770,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 554px) {
 
-  .user-stats {
+  .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 3rem;
     margin-right: 3rem;
   }
 
-  .canopy-competition-container {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
 
   #canopy-card-text {
     font-family: "Karla";
@@ -2820,12 +2799,7 @@ opacity: 0.99;
 
 @media only screen and (max-width: 540px) {
 
-  .user-stats {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
-  .canopy-competition-container {
+  .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 3rem;
     margin-right: 3rem;
   }
@@ -2851,12 +2825,7 @@ opacity: 0.99;
 
 @media only screen and (max-width: 500px) {
 
-  .user-stats {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
-  .canopy-competition-container {
+  .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 3rem;
     margin-right: 3rem;
   }
@@ -3084,15 +3053,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 452px) {
 
-  .user-stats {
+  .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 3rem;
     margin-right: 3rem;
   }
 
-  .canopy-competition-container {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
 
   #canopy-card-text {
     font-family: "Karla";
@@ -3115,12 +3080,7 @@ opacity: 0.99;
 
 @media only screen and (max-width: 400px) {
 
-  .user-stats {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .canopy-competition-container {
+  .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -3346,12 +3306,7 @@ opacity: 0.99;
 
   }
 
-  .user-stats {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .canopy-competition-container {
+  .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 1rem;
     margin-right: 1rem;
   }
