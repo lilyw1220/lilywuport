@@ -622,6 +622,9 @@ footer ul {
   margin: auto;
 }
 
+.user-graph-2-title > h5 {
+  text-align: center;
+}
 
 .canopy-header {
   margin: auto;
@@ -1154,7 +1157,6 @@ footer ul {
 }
 
 .results-button {
-  margin-top: 5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -3075,6 +3077,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 452px) {
 
+  .user-graph-2-title > h5 {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+
   .client-features > article > h5 {
     font-size: 2rem;
     line-height: 3.2rem;
@@ -3115,6 +3122,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 400px) {
+
+  .user-graph-2-title > h5 {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
 
   .client-features > article > h5 {
     font-size: 2rem;
@@ -3339,6 +3351,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 380px) {
+
+  .user-graph-2-title > h5 {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
 
   .client-features > article > h5 {
     font-size: 2rem;
@@ -3612,6 +3629,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 335px) {
+
+  .user-graph-2-title > h5 {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
 
 
   .client-features > article > h5 {
