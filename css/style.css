@@ -1334,7 +1334,7 @@ footer ul {
   font-family: "Karla";
   font-style: normal;
   font-weight: normal;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 3rem;
   color: #343434;
   text-align: left;
@@ -1356,8 +1356,6 @@ footer ul {
   opacity: 0.99;
   text-align: left;
   padding-left: 4rem;
-  padding-top: 6rem;
-
 }
 
 .user-needs > ul {
@@ -1943,6 +1941,10 @@ opacity: 0.99;
 
 @media only screen and (max-width: 1220px) {
 
+  .user-personas {
+    display: block;
+  }
+
   .canopy-competition-text > p {
     margin-top: 1rem;
     margin-left: -7rem;
@@ -2518,6 +2520,18 @@ opacity: 0.99;
 
 @media only screen and (max-width: 650px) {
 
+  #user1 {
+    width: 100%;
+    height: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .user-personas {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
 
   .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 5rem;
@@ -2750,6 +2764,20 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 600px) {
+
+  #user1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .user-personas > article > p {
+    font-size: 1.8rem;
+  }
+
+  .user-personas {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 
   .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 3rem;
