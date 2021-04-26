@@ -1386,8 +1386,6 @@ footer ul {
   padding-top: 2rem;
   padding-bottom: 9rem;
   text-align: center;
-  width: 100%;
-  background:rgba(27, 64, 73, 0.1);
 
 }
 
@@ -1421,6 +1419,16 @@ footer ul {
   margin-bottom: 5rem;
 }
 
+#canopyflow1 {
+  width: 100%;
+  height: auto;
+}
+
+#canopyflow2 {
+  width: 100%;
+  height: auto;
+}
+
 /*.canopy-sitemap > h6 {
   margin-top: 5rem;
 }*/
@@ -1428,6 +1436,12 @@ footer ul {
 .canopy-sitemap-img {
   margin-left: auto;
   margin-right: auto;
+}
+
+#canopy-sitemap {
+  width: 100%;
+  height: auto;
+  max-height: 50rem;
 }
 
 /*.canopy-sketches {
@@ -2519,6 +2533,7 @@ opacity: 0.99;
 
 
 @media only screen and (max-width: 650px) {
+
 
   #user1 {
     width: 100%;
