@@ -1245,7 +1245,7 @@ footer ul {
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 10rem;
   padding-left: 15rem;
   padding-right: 15rem;
@@ -1317,8 +1317,8 @@ footer ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
   padding-top: 2rem;
   padding-bottom: 9rem;
   align-items: stretch;
@@ -1464,6 +1464,16 @@ footer ul {
 .canopy-sketch-screens > article > img {
   max-height: 423px;
   max-width: 628px;
+}
+
+#canopysketch1 {
+  width: 100%;
+  height: auto;
+}
+
+#canopysketch2 {
+  width: 100%;
+  height: auto;
 }
 
 .canopy-wire-pics {
@@ -1954,6 +1964,10 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 1220px) {
+
+  .canopy-sketch-screens {
+    display: block;
+  }
 
   .user-personas {
     display: block;
@@ -2892,6 +2906,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 500px) {
 
+  .canopy-sketch-screens {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .canopy-competition-container, .user-stats, .cloud-usage {
     margin-left: 3rem;
     margin-right: 3rem;
@@ -3120,6 +3139,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 452px) {
 
+  .canopy-sketch-screens {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .user-graph-2-title > h5 {
     font-size: 2rem;
     line-height: 3.2rem;
@@ -3165,6 +3189,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 400px) {
+
+  .canopy-sketch-screens {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 
   .user-graph-2-title > h5 {
     font-size: 2rem;
@@ -3394,6 +3423,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 380px) {
+
+  .canopy-sketch-screens {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 
   .user-graph-2-title > h5 {
     font-size: 2rem;
@@ -3672,6 +3706,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 335px) {
+
+  .canopy-sketch-screens {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 
   .user-graph-2-title > h5 {
     font-size: 2rem;
