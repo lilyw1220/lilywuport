@@ -1488,6 +1488,12 @@ footer ul {
   text-align: center;
 }
 
+
+#canopywireframe {
+  width: 100%;
+  height: auto;
+}
+
 .canopy-wire-pics > article > img {
   max-height: 284px;
   max-width: 363px;
@@ -1506,6 +1512,11 @@ footer ul {
   padding-bottom: 3rem;
   align-items: center;
   text-align: center;
+}
+
+#canopy-big-wire-pic {
+  width: 100%;
+  height: auto;
 }
 
 .canopy-big-wireframe > article > img {
@@ -2218,6 +2229,7 @@ opacity: 0.99;
 
 @media only screen and (max-width: 960px) {
 
+
   .canopy-process-section > h2, h6 {
     margin-right: 20rem;
     margin-left: 20rem;
@@ -2288,6 +2300,13 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 800px) {
+
+  .canopy-wire-pics, .canopy-big-wireframe {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: block;
+  }
+
 
   .canopy-process-section > h2, h6 {
     margin-right: 15rem;
@@ -3708,8 +3727,8 @@ opacity: 0.99;
 @media only screen and (max-width: 335px) {
 
   .canopy-sketch-screens {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .user-graph-2-title > h5 {
