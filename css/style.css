@@ -612,9 +612,8 @@ footer ul {
 
   width: 50%;
   margin: auto;
+
 }
-
-
 
 .user-graph-2 {
 
@@ -1774,6 +1773,14 @@ color: #353636;
   width: 100%;
   height: auto;
 }
+
+/*#canopy-design-prog {
+  padding: 2rem;
+}
+
+#canopy-dash-v1 {
+  padding: 2rem;
+}*/
 
 .canopy-preference-test1 {
   margin-left: auto;
