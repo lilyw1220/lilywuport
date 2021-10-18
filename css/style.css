@@ -2080,16 +2080,35 @@ opacity: 0.99;
   .busybus-competition {
     flex: 1;
     background-color: #E8ECED;
+    margin-bottom: 2rem;
+  }
+
+  .busybus-feature {
+    flex: 1;
+    background-color: #E8ECED;
+    margin-bottom: 2rem;
+  }
+
+  .busybus-feautre > img {
+    max-width: 90px;
+    max-width: 108px;
+  }
+
+  .busybus-competition > img {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
+    max-width: 400px;
   }
 
   #moovit-pic {
-    max-width: 500px;
-    max-height: 300px;
+    width: 100%;
+    height: auto;
   }
 
   #googlemaps-pic {
-    max-width: 500px;
-    max-height: 300px;
+    width: 100%;
+    height: auto;
   }
 
   .busybus-competition-text {
@@ -2147,6 +2166,7 @@ opacity: 0.99;
 
 @media only screen and (max-width: 1340px) {
 
+
   #canopy-card-text {
     font-family: "Karla";
     font-size: 1.8rem;
@@ -2163,6 +2183,12 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 1220px) {
+
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -30rem;
+}
+
 
   .canopy-sketch-screens {
     display: block;
@@ -2317,6 +2343,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 1100px) {
 
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -25rem;
+}
+
   .client-features {
     padding-left: 15rem;
     padding-right: 15rem;
@@ -2354,6 +2385,16 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 1030px) {
+
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -30rem;
+}
+
+
+  #busybus-card-text {
+    margin-left: 10rem;
+  }
 
   .canopy-competition-text > p {
     margin-top: 1rem;
@@ -2422,6 +2463,19 @@ opacity: 0.99;
 
 @media only screen and (max-width: 960px) {
 
+  #busybus-card-text {
+    margin-left: 15rem;
+}
+
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -55rem;
+}
+
+  .busybus-competition-container {
+    display: block;
+  }
+
 
   .canopy-process-section > h2, h6 {
     margin-right: 20rem;
@@ -2472,6 +2526,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 810px) {
+
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -45rem;
+}
 
   #canopy-card-text {
     font-family: "Karla";
@@ -2736,7 +2795,30 @@ opacity: 0.99;
 
 }
 
+@media only screen and (max-width: 740px) {
+
+  #busybus-card-text {
+      margin-left: 10rem;
+  }
+
+}
+
 @media only screen and (max-width: 670px) {
+
+  .busybus-competition-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -45rem;
+}
+
+  .busybus-pics {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 
   .canopy-competition-container, .user-stats, .cloud-usage, .cloud-usage-colors {
     margin-left: 5rem;
@@ -2765,6 +2847,11 @@ opacity: 0.99;
 
 
 @media only screen and (max-width: 650px) {
+
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -45rem;
+}
 
   .canopy-flow-1 {
     padding-left: 1rem;
@@ -3021,6 +3108,7 @@ opacity: 0.99;
 
 @media only screen and (max-width: 600px) {
 
+
   #user1 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -3076,6 +3164,11 @@ opacity: 0.99;
 
 
 @media only screen and (max-width: 554px) {
+
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -35rem;
+}
 
   .canopy-competition-container, .user-stats, .cloud-usage, .cloud-usage-colors {
     margin-left: 3rem;
@@ -3134,6 +3227,15 @@ opacity: 0.99;
     margin-top: 1rem;
     margin-left: 8rem;
   }
+
+}
+
+@media only screen and (max-width: 520px) {
+
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -30rem;
+}
 
 }
 
@@ -3376,6 +3478,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 452px) {
 
+  .busybus-competition-container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
   .canopy-sketch-screens {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -3426,6 +3533,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 400px) {
+
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -25rem;
+}
 
   .canopy-sketch-screens {
     padding-left: 3rem;
@@ -3660,6 +3772,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 380px) {
+
+  .busybus-pics {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
   .canopy-sketch-screens {
     padding-left: 3rem;
@@ -3941,10 +4058,28 @@ opacity: 0.99;
 
   }
 
+}
+
+@media only screen and (max-width: 350px) {
+
+  #busybus-card-text {
+    margin-left: 8rem;
+    margin-right: 4rem;
+  }
+
+  .busybus-competition-text > img {
+    margin-top: 1rem;
+    margin-left: -20rem;
+}
 
 }
 
 @media only screen and (max-width: 335px) {
+
+  .busybus-pics {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
   .canopy-sketch-screens {
     padding-left: 1rem;
