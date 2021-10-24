@@ -1950,6 +1950,11 @@ opacity: 0.99;
 .bus-hifi-screens > article > img {
   max-width: 278px;
   max-height: 500px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  align-items: center;
+  
 }
 
 #bus-design-pic {
@@ -1963,11 +1968,6 @@ opacity: 0.99;
   background-color: #E8ECED;
 }
 
-
-.bus-hifi-screens > article > img {
-  padding-top: 2rem;
-  align-items: center;
-}
 
 .bus-hifi-screens > article > h5 {
   padding-top: 3rem;
@@ -2409,7 +2409,7 @@ opacity: 0.99;
     padding-bottom: 4rem;
   }
 
-.canopy-competition-container, .user-stats, .cloud-usage, .client-features, .cloud-usage-colors, .canopy-logo-sketch, .canopy-design-progression {
+.canopy-competition-container, .user-stats, .cloud-usage, .client-features, .cloud-usage-colors, .canopy-logo-sketch, .canopy-design-progression, .bus-hifi-screens {
   display: block;
 }
 
@@ -2805,7 +2805,7 @@ opacity: 0.99;
 
 @media only screen and (max-width: 670px) {
 
-  .busybus-competition-container {
+  .busybus-competition-container, .bus-hifi-screens {
     margin-left: 3rem;
     margin-right: 3rem;
   }
@@ -3478,6 +3478,11 @@ opacity: 0.99;
 
 @media only screen and (max-width: 452px) {
 
+  .busy-sketch-screens {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .busybus-competition-container {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -3772,6 +3777,11 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 380px) {
+
+  .bus-hifi-screens {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
   .busybus-pics {
     padding-left: 2rem;
