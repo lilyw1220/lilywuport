@@ -75,27 +75,22 @@ var vertbarChart = new Chart(userchart2, {
     }
 });
 
-var userchart3 = document.getElementById('pieChart').getContext('2d');
-var pieChart = new Chart(userchart3, {
-const config = {
+var buspie = document.getElementById('pieChart').getContext('2d');
+var pieChart = new Chart(buspie, {
   type: 'pie',
-  data: data,
-
-  const data = {
-  labels: [
-    'Red',
-    'Blue',
-    'Yellow'
-  ],
-  datasets: [{
-    label: 'My First Dataset',
-    data: [300, 50, 100],
-    backgroundColor: [
-      'rgb(255, 99, 132)',
-      'rgb(54, 162, 235)',
-      'rgb(255, 205, 86)'
-    ],
-    hoverOffset: 4
-  }]
-};
+  data: {
+    labels: ["Green", "Blue", "Gray", "Purple", "Yellow", "Red", "Black"],
+    datasets: [{
+      backgroundColor: [
+        "#2ecc71",
+        "#3498db",
+        "#95a5a6",
+        "#9b59b6",
+        "#f1c40f",
+        "#e74c3c",
+        "#34495e"
+      ],
+      data: [12, 19, 3, 17, 28, 24, 7]
+    }]
+  }
 });
