@@ -1,6 +1,6 @@
 var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
-    type: 'horizontalBar',
+    type: 'bar',
     data: {
         labels: ['To Manage Projects', 'For Team Collaboration', 'To Share Content', 'To Create and Edit Content', 'To Save Weblinks', 'To Back Up Content', 'To Transfer Files Between Devices'],
         datasets: [{
@@ -29,13 +29,7 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        }
+        indexAxis: 'y',
     }
 });
 
@@ -73,24 +67,4 @@ var vertbarChart = new Chart(userchart2, {
             }]
         }
     }
-});
-
-var buspie = document.getElementById('pieChart').getContext('2d');
-var pieChart = new Chart(buspie, {
-  type: 'pie',
-  data: {
-    labels: ["Green", "Blue", "Gray", "Purple", "Yellow", "Red", "Black"],
-    datasets: [{
-      backgroundColor: [
-        "#2ecc71",
-        "#3498db",
-        "#95a5a6",
-        "#9b59b6",
-        "#f1c40f",
-        "#e74c3c",
-        "#34495e"
-      ],
-      data: [12, 19, 3, 17, 28, 24, 7]
-    }]
-  }
 });

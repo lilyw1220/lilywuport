@@ -77,7 +77,6 @@ h6 {
   font-weight: 500;
   font-size: 28px;
   line-height: 33px;
-  text-decoration-line: underline;
   color: #525151;
   opacity: 0.99;
 }
@@ -1954,7 +1953,7 @@ opacity: 0.99;
   padding-left: 2rem;
   padding-right: 2rem;
   align-items: center;
-  
+
 }
 
 #bus-design-pic {
