@@ -385,6 +385,14 @@ button:hover {
 
 }
 
+.shoppr-img {
+  background-color: #BDDCD1;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+
+}
+
 .busybus-grid > article {
   display: flex;
 }
