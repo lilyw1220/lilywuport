@@ -390,6 +390,7 @@ button:hover {
   border-radius: 5px;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 1rem;
 
 }
 
@@ -2330,10 +2331,6 @@ opacity: 0.99;
     }
 
     .busybus-img {
-      margin-bottom: 1rem;
-    }
-
-    .shoppr-img {
       margin-bottom: 1rem;
     }
 
