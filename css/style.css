@@ -390,8 +390,6 @@ button:hover {
   border-radius: 5px;
   display: flex;
   align-items: flex-end;
-  margin-bottom: 1rem;
-
 }
 
 .busybus-grid > article {
