@@ -385,7 +385,7 @@ button:hover {
 
 }
 
-.shoppr-img {
+.busybus2-img {
   background-color: #BDDCD1;
   border-radius: 5px;
   display: flex;
@@ -2214,10 +2214,6 @@ opacity: 0.99;
 
 @media only screen and (max-width: 1200px) {
 
-  .shoppr-img {
-    margin-bottom: 1rem;
-  }
-
   .canopy-flow-1 {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -2330,6 +2326,10 @@ opacity: 0.99;
       padding-left: 5rem;
       padding-right: 5rem;
 
+    }
+
+    .busybus2-img {
+      margin-bottom: 1rem;
     }
 
     .busybus-img {
