@@ -504,7 +504,7 @@ button:hover {
   font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   margin-top: 1.5rem;
 
@@ -3251,6 +3251,16 @@ opacity: 0.99;
 }
 
 @media only screen and (max-width: 500px) {
+
+  .user-graph-1 {
+    width: 80%;
+    margin: auto;
+}
+
+.user-graph-2 {
+  width: 80%;
+  margin: auto;
+}
 
   .canopy-sketch-screens {
     padding-left: 3rem;
