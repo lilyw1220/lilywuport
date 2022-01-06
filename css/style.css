@@ -2214,6 +2214,10 @@ opacity: 0.99;
 
 @media only screen and (max-width: 1200px) {
 
+  .shoppr-img {
+    margin-bottom: 1rem;
+  }
+
   .canopy-flow-1 {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -2332,9 +2336,6 @@ opacity: 0.99;
       margin-bottom: 1rem;
     }
 
-    .shoppr-img {
-      margin-bottom: 1rem;
-    }
 
     #contact-text{
       margin-left: 3rem;
